@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Movable Sesame Street Image</title>
+    <!--add a link to our css file -->
+    <link rel="stylesheet" href="movableImageSS.css">
+
+</head>
+    <body>
+        <h1>Cookie Monster and Oscar Helpdesk</h1>
+            <p>
+        <!--button calls the function to move image-->
+        <button onclick="marchingForward('right')">Move Right</button>
+        <button onclick="marchingForward('left')">Move Left</button>
+        <button onclick="marchingForward('up')">Move Up</button>
+        <button onclick="marchingForward('down')">Move Down</button>
+        <button onclick="halt()">Stop</button>
+        <div id="container">
+            <img id="movingSSImage" src="cookie monster_oscar.jpg">
+        </div>
+        <!--add a link to my js file-->
+        <script src="movableImage.js"></script>
+            </p>
+    
+    </body>
+</html>

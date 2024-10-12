@@ -1,0 +1,50 @@
+/*
+declaration block: 
+
+selector{ 
+    property: value1;
+    property2: value2;
+    property3: value3;
+}
+*/
+
+body{
+    background-color:  rgb(114, 241, 241);
+    color: black;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage{
+    margin-right: 200px;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#movingSSImage {
+    position: absolute;
+}
